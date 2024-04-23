@@ -1,15 +1,5 @@
-# liveview-alike
+# Phaseshift
 
-To install dependencies:
+A barebones proof of concept Typescript web framework that allows interactive user interfaces with real time state on the server via Websockets. Client can call functions in real time on the server and HTML is updated and sent in patches, only when needed. Inspired by the concept of Websocket updates from the Elixir Phoenix framework and Liveview.
 
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run phaseshift/index.ts
-```
-
-This project was created using `bun init` in bun v1.0.31. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+![Phaseshift example](phaseshift_example.gif)
